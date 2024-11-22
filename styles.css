@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+*{
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+}
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(254,254,254);
+    background: radial-gradient(circle, rgba(254,254,254,1) 0%, rgba(80,77,77,1) 100%);
+}
+.phone-frame{
+    padding-inline: 10px;
+    height: 580px;
+    width: 280px;
+    background-color: black;
+    border-radius: 40px;
+    box-shadow: 0 0 0 7px rgb(1, 1, 84);
+    outline: 3px solid rgb(26, 26, 26);
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.notch{
+    background-color: rgb(26, 26, 26);
+    height: 28px;
+    width: 160px;
+    border-radius: 20px;
+    border-top-left-radius: 0px ;
+    border-top-right-radius: 0px ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.camera-circle{
+    background-color: rgb(58, 58, 58);
+    width: 8px;
+    height: 8px;
+    border-radius: 7px;
+}
+
+.audio-strip{
+    width: 60px;
+    height: 5px;
+    background-color: rgb(33, 33, 33);
+    border-radius: 10px;
+}
+.top{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 200px;
+}
+
+#results-div{
+    color: white;
+    width: 100%;
+    text-align: center;
+    height: 50px;
+}
+
+#user-input{
+    width: 100%;
+    height: 150px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 400;
+    color: white;
+    background-color: black;
+    border: none;
+}
+
+input:focus{
+    border: none;
+    outline: none;
+}
+
+button{
+    border-radius: 30px;
+    cursor: pointer;
+    font-size: large;
+    text-align: center;
+    background-color: rgb(46, 46, 46);
+    border: none;
+    color: white;
+}
+
+.bot{
+    display: grid;
+    gap: 20px;
+    grid-template-columns: 60px 60px 60px;
+    grid-template-rows: 60px 60px 60px 60px;
+}
+
+
+.home-bar{
+    width: 100px;
+    background: #fff;
+    height: 4px;
+    margin-top: auto;
+    border-radius: 2px;
+    margin-bottom: 7px;
+}
